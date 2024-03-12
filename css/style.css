@@ -15,16 +15,17 @@
 }
 
 .dark-theme {
-   --main-color: #ffffff; /* Change main color to white */
-   --red: #ff6b6b; /* Change red color */
-   --orange: #ffb997; /* Change orange color */
-   --black: #000000; /* Change black color to black */
-   --white: #34495e; /* Change white color to a dark color */
-   --light-bg: #2d3436; /* Change light background color to a dark color */
-   --light-color: #dfe6e9; /* Change light color to a lighter dark color */
-   --border: .2rem solid var(--white); /* Change border color */
-   --btn-color: #00A170; /* Maintain button color */
-   --follow-color: #FFD580; /* Maintain follow color */
+   --main-color: #4834d4;
+   --red: #e74c3c;
+   --orange: #f39c12;
+   --black: #fff; /* Change black to white */
+   --white: #34495e; /* Change white to a dark color */
+   --light-bg: #2c3e50; /* Change light background to a dark color */
+   --light-color: #ccc; /* Change light color to a lighter shade for text */
+   --border: .2rem solid var(--white); /* Change border color to white */
+   --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+   --btn-color: #00A170;
+   --follow-color: #FFD580; 
  }
 
 *{
