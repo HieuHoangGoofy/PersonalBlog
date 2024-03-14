@@ -58,6 +58,8 @@ if(isset($_POST['submit'])){
 
 
 <!-- register admin section starts  -->
+<?php include '../components/author_header.php' ?>
+
 
 <section class="form-container">
 
