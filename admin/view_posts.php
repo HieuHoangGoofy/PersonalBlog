@@ -24,6 +24,10 @@ if(isset($_POST['delete'])){
    $delete_post->execute([$p_id]);
    $delete_comments = $conn->prepare("DELETE FROM `comments` WHERE post_id = ?");
    $delete_comments->execute([$p_id]);
+   $delete_dislikes = $conn->prepare("DELETE FROM `dislikes` WHERE post_id = ?");
+   $delete_dislikes->execute([$p_id]);
+   $delete_likes = $conn->prepare("DELETE FROM `likes` WHERE post_id = ?");
+   $delete_likes->execute([$p_id]);
    $message[] = 'post deleted successfully!';
 
 }
